@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/learn_springdatajpa
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.jdbc.Driver
+    # 设置spring.jpa.generate-ddl: true主要用于自动生成数据库的数据定义语言（DDL）脚本。
+    jpa:
+        generate-ddl: true
